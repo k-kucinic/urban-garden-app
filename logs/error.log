@@ -1,0 +1,1741 @@
+2024-01-17 15:28:33,875 INFO [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [HelloApplication.java:20] info
+2024-02-05 16:57:08,305 ERROR [main] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:41] No suitable driver found for jdbc:h2:tcp://localhost/~/urbangarden
+2024-02-05 16:59:07,259 ERROR [main] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:41] No suitable driver found for jdbc:h2:tcp://localhost/~/urbangarden
+2024-02-05 17:02:10,114 ERROR [main] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:41] No suitable driver found for jdbc:h2:tcp://localhost/~/urbangarden
+2024-02-05 17:02:26,798 ERROR [main] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:41] Column "WATERING_FREQUENCY " not found [42122-224]
+2024-02-05 17:02:44,609 ERROR [main] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:41] Column "WATERING_FREQUENCY " not found [42122-224]
+2024-02-08 18:26:51,727 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:76] files\plant_changes.dat (The system cannot find the file specified)
+2024-02-08 18:28:19,686 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:76] null
+2024-02-08 18:31:28,122 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:76] null
+2024-02-08 18:31:28,150 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:63] Serialization error. 
+java.io.NotSerializableException: hr.java.garden.projektkucinic.model.Plant
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200)
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1585)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1542)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.utils.FileUtils.serializePlantChanges(FileUtils.java:60)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.controllers.AllPlantsController.deletePlant(AllPlantsController.java:88)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1855)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.controls@21-ea/javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1415)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1368)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-02-08 18:32:44,050 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:76] writing aborted; java.io.NotSerializableException: hr.java.garden.projektkucinic.model.Plant
+2024-02-08 18:32:44,056 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:63] Serialization error. 
+java.io.NotSerializableException: java.util.Optional
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200)
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1585)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1542)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1585)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1542)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.utils.FileUtils.serializePlantChanges(FileUtils.java:60)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.controllers.AllPlantsController.deletePlant(AllPlantsController.java:88)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1855)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.controls@21-ea/javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1415)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1368)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-02-08 18:35:05,997 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:76] writing aborted; java.io.NotSerializableException: java.util.Optional
+2024-02-08 18:47:50,279 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:76] hr.java.garden.projektkucinic.model.Plant; local class incompatible: stream classdesc serialVersionUID = -683592964710354372, local class serialVersionUID = 5912111411078535242
+2024-02-08 18:52:15,513 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:76] hr.java.garden.projektkucinic.model.Plant; local class incompatible: stream classdesc serialVersionUID = -683592964710354372, local class serialVersionUID = 4686298340073252803
+2024-02-08 18:52:15,525 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:63] Serialization error. 
+java.io.NotSerializableException: hr.java.garden.projektkucinic.model.WateringFrequency
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200)
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1585)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1542)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1585)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1542)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.utils.FileUtils.serializePlantChanges(FileUtils.java:60)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.controllers.AllPlantsController.deletePlant(AllPlantsController.java:91)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1855)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.controls@21-ea/javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1415)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1368)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-02-08 18:52:21,653 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:76] writing aborted; java.io.NotSerializableException: hr.java.garden.projektkucinic.model.WateringFrequency
+2024-02-08 18:52:59,589 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:76] writing aborted; java.io.NotSerializableException: hr.java.garden.projektkucinic.model.WateringFrequency
+2024-02-08 18:59:34,555 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:76] writing aborted; java.io.NotSerializableException: hr.java.garden.projektkucinic.model.WateringFrequency
+2024-02-08 19:02:40,834 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:76] null
+2024-02-08 19:02:40,853 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:63] Serialization error. 
+java.io.NotSerializableException: hr.java.garden.projektkucinic.model.WateringActivity
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1585)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1542)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1585)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1542)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.utils.FileUtils.serializePlantChanges(FileUtils.java:60)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.controllers.AllPlantsController.deletePlant(AllPlantsController.java:91)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1855)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.controls@21-ea/javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1415)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1368)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-02-08 19:02:49,769 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:76] writing aborted; java.io.NotSerializableException: hr.java.garden.projektkucinic.model.WateringActivity
+2024-02-08 19:05:18,030 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:76] writing aborted; java.io.NotSerializableException: hr.java.garden.projektkucinic.model.WateringActivity
+2024-02-08 19:05:46,775 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:76] writing aborted; java.io.NotSerializableException: hr.java.garden.projektkucinic.model.WateringActivity
+2024-02-10 13:38:07,092 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [AllPlantsController.java:142] Controller value already specified.
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/edit-plant.fxml:14
+
+2024-02-10 13:38:10,920 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [AllPlantsController.java:142] Controller value already specified.
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/edit-plant.fxml:14
+
+2024-02-10 13:44:40,707 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [AllPlantsController.java:144] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/edit-plant.fxml:14
+
+2024-02-10 13:44:44,439 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [AllPlantsController.java:144] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/edit-plant.fxml:14
+
+2024-02-10 13:44:49,162 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [AllPlantsController.java:144] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/edit-plant.fxml:14
+
+2024-02-10 13:52:26,329 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [EditPlantController.java:62] For input string: "8.50"
+2024-02-10 13:52:26,331 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [EditPlantController.java:73] For input string: "5.00"
+2024-02-10 13:56:12,578 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [EditPlantController.java:73] For input string: "5.00"
+2024-02-10 13:56:15,131 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [EditPlantController.java:73] For input string: "5.00"
+2024-02-10 14:02:02,466 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [EditPlantController.java:63] For input string: "8.00"
+2024-02-10 14:02:02,469 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [EditPlantController.java:74] For input string: "5.50"
+2024-02-10 15:01:13,028 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [EditPlantController.java:77] For input string: "5.00"
+2024-02-10 19:57:23,194 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:84] null
+2024-02-10 19:58:21,157 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [MenubarController.java:41] Accordion is not a valid type.
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/all-planed-activities.fxml:39
+
+2024-02-10 19:58:30,237 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [MenubarController.java:41] Accordion is not a valid type.
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/all-planed-activities.fxml:39
+
+2024-02-10 19:58:31,983 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:84] null
+2024-02-10 19:59:18,307 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:205] No data is available [2000-224]
+2024-02-10 20:02:03,024 INFO [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGarden.java:29] The plants do not fit in garden.
+2024-02-10 20:02:03,026 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:208] The plants do not fit in garden
+2024-02-10 20:04:48,247 INFO [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGarden.java:31] The plants do not fit in garden.
+2024-02-10 20:04:58,397 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:208] The plants do not fit in garden
+2024-02-10 20:05:34,690 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:84] null
+2024-02-10 20:08:36,946 INFO [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGarden.java:31] The plants do not fit in garden.
+2024-02-10 20:09:01,894 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:208] The plants do not fit in garden
+2024-02-10 20:09:16,012 INFO [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGarden.java:31] The plants do not fit in garden.
+2024-02-10 20:09:16,014 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:208] The plants do not fit in garden
+2024-02-10 20:10:15,922 INFO [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGarden.java:31] The plants do not fit in garden.
+2024-02-10 20:10:29,060 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:208] The plants do not fit in garden
+2024-02-10 20:19:25,580 INFO [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGarden.java:31] The plants do not fit in garden.
+2024-02-10 20:19:25,581 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:208] The plants do not fit in garden
+2024-02-10 20:19:31,954 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:84] null
+2024-02-10 20:26:19,819 INFO [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGarden.java:31] The plants do not fit in garden.
+2024-02-10 20:26:22,353 INFO [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGarden.java:31] The plants do not fit in garden.
+2024-02-10 20:26:22,802 INFO [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGarden.java:31] The plants do not fit in garden.
+2024-02-10 20:26:23,010 INFO [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGarden.java:31] The plants do not fit in garden.
+2024-02-10 20:26:23,260 INFO [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGarden.java:31] The plants do not fit in garden.
+2024-02-10 20:26:24,516 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:83] null
+2024-02-10 20:28:37,032 INFO [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGarden.java:31] The plants do not fit in garden.
+2024-02-10 20:28:38,976 INFO [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGarden.java:31] The plants do not fit in garden.
+2024-02-10 20:28:39,311 INFO [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGarden.java:31] The plants do not fit in garden.
+2024-02-10 20:28:40,544 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:83] null
+2024-02-10 20:55:31,803 INFO [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGarden.java:31] The plants do not fit in garden.
+2024-02-10 20:55:33,317 INFO [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGarden.java:31] The plants do not fit in garden.
+2024-02-10 20:55:33,547 INFO [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGarden.java:31] The plants do not fit in garden.
+2024-02-10 20:55:33,750 INFO [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGarden.java:31] The plants do not fit in garden.
+2024-02-10 20:55:34,345 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:83] null
+2024-02-10 20:59:55,118 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:83] null
+2024-02-10 21:01:32,690 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:83] null
+2024-02-10 21:18:13,678 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:83] null
+2024-02-11 10:32:06,585 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:83] null
+2024-02-11 10:39:49,858 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:83] null
+2024-02-11 10:43:03,360 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:83] null
+2024-02-11 10:49:00,130 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:83] null
+2024-02-11 10:53:19,829 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:83] null
+2024-02-11 10:55:33,676 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:83] null
+2024-02-11 10:59:49,967 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:83] null
+2024-02-11 15:14:17,690 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:83] null
+2024-02-11 15:14:48,852 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:83] null
+2024-02-11 15:15:56,208 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:83] null
+2024-02-11 15:18:36,930 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:83] null
+2024-02-11 15:20:37,192 ERROR [main] h.j.g.p.u.DatabaseUtils [FileUtils.java:83] null
+2024-02-11 16:18:32,740 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] null
+2024-02-11 16:19:04,800 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] null
+2024-02-11 16:26:12,660 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:176] Error connecting to the database
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE PLANT SET REQUIRED_SPACE = ?WATER_NEEDED[*] = ?WATERING_FREQUENCY = ? WHERE ID = 2"; SQL statement:
+UPDATE PLANT SET REQUIRED_SPACE = ?WATER_NEEDED = ?WATERING_FREQUENCY = ? WHERE ID = 2 [42000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.engine.SessionRemote.readException(SessionRemote.java:650)
+	at org.h2.engine.SessionRemote.done(SessionRemote.java:619)
+	at org.h2.command.CommandRemote.prepare(CommandRemote.java:78)
+	at org.h2.command.CommandRemote.<init>(CommandRemote.java:50)
+	at org.h2.engine.SessionRemote.prepareCommand(SessionRemote.java:487)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:316)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.utils.DatabaseUtils.editPlantInDatabase(DatabaseUtils.java:155)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.controllers.EditPlantController.saveChanges(EditPlantController.java:114)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1855)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-02-11 16:37:07,014 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] hr.java.garden.projektkucinic.model.Plant; local class incompatible: stream classdesc serialVersionUID = 4947933682181565932, local class serialVersionUID = -7213136240732884927
+2024-02-11 16:37:11,067 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] hr.java.garden.projektkucinic.model.Plant; local class incompatible: stream classdesc serialVersionUID = 4947933682181565932, local class serialVersionUID = -7213136240732884927
+2024-02-11 16:37:28,838 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] hr.java.garden.projektkucinic.model.Plant; local class incompatible: stream classdesc serialVersionUID = 4947933682181565932, local class serialVersionUID = -7213136240732884927
+2024-02-11 16:40:32,236 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] null
+2024-02-11 16:40:42,892 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] null
+2024-02-11 19:33:45,315 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [EditPlantController.java:117] nije dobro
+2024-02-11 19:36:06,138 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [EditPlantController.java:117] nije dobro
+2024-02-11 19:36:52,040 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [EditPlantController.java:117] nije dobro
+2024-02-11 19:37:47,169 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [EditPlantController.java:117] nije dobro
+2024-02-12 11:09:56,460 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] hr.java.garden.projektkucinic.genericsi.ScheduleForPlant; local class incompatible: stream classdesc serialVersionUID = -9083607571838303052, local class serialVersionUID = -4437700324154671312
+2024-02-12 11:10:06,553 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] hr.java.garden.projektkucinic.genericsi.ScheduleForPlant; local class incompatible: stream classdesc serialVersionUID = -9083607571838303052, local class serialVersionUID = -4437700324154671312
+2024-02-12 11:10:07,455 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] hr.java.garden.projektkucinic.genericsi.ScheduleForPlant; local class incompatible: stream classdesc serialVersionUID = -9083607571838303052, local class serialVersionUID = -4437700324154671312
+2024-02-12 11:11:16,808 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] hr.java.garden.projektkucinic.genericsi.ScheduleForPlant; local class incompatible: stream classdesc serialVersionUID = -9083607571838303052, local class serialVersionUID = -4437700324154671312
+2024-02-12 11:11:19,459 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] hr.java.garden.projektkucinic.genericsi.ScheduleForPlant; local class incompatible: stream classdesc serialVersionUID = -9083607571838303052, local class serialVersionUID = -4437700324154671312
+2024-02-12 11:11:19,624 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] hr.java.garden.projektkucinic.genericsi.ScheduleForPlant; local class incompatible: stream classdesc serialVersionUID = -9083607571838303052, local class serialVersionUID = -4437700324154671312
+2024-02-12 11:11:19,764 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] hr.java.garden.projektkucinic.genericsi.ScheduleForPlant; local class incompatible: stream classdesc serialVersionUID = -9083607571838303052, local class serialVersionUID = -4437700324154671312
+2024-02-12 11:11:19,993 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] hr.java.garden.projektkucinic.genericsi.ScheduleForPlant; local class incompatible: stream classdesc serialVersionUID = -9083607571838303052, local class serialVersionUID = -4437700324154671312
+2024-02-12 11:13:18,060 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [EditPlantController.java:117] nije dobro
+2024-02-12 11:13:18,062 ERROR [Thread-3] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] null
+2024-02-12 11:13:18,062 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] null
+2024-02-12 15:27:34,034 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [EditPlantController.java:117] nije dobro
+2024-02-12 15:27:34,035 ERROR [Thread-4] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] null
+2024-02-12 15:28:32,019 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [EditPlantController.java:117] nije dobro
+2024-02-12 15:28:32,022 ERROR [Thread-4] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] null
+2024-02-12 15:30:23,908 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [EditPlantController.java:117] nije dobro
+2024-02-12 15:30:23,920 ERROR [Thread-4] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] null
+2024-02-12 15:30:23,963 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:176] Error connecting to the database
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE PLANT SET REQUIRED_SPACE = ?WATER_NEEDED[*] = ?WATERING_FREQUENCY = ? WHERE ID = 1"; SQL statement:
+UPDATE PLANT SET REQUIRED_SPACE = ?WATER_NEEDED = ?WATERING_FREQUENCY = ? WHERE ID = 1 [42000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.engine.SessionRemote.readException(SessionRemote.java:650)
+	at org.h2.engine.SessionRemote.done(SessionRemote.java:619)
+	at org.h2.command.CommandRemote.prepare(CommandRemote.java:78)
+	at org.h2.command.CommandRemote.<init>(CommandRemote.java:50)
+	at org.h2.engine.SessionRemote.prepareCommand(SessionRemote.java:487)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:316)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.utils.DatabaseUtils.editPlantInDatabase(DatabaseUtils.java:155)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.controllers.EditPlantController.saveChanges(EditPlantController.java:134)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1855)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-02-12 15:30:34,754 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] null
+2024-02-12 15:31:17,076 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [EditPlantController.java:117] nije dobro
+2024-02-12 15:31:17,079 ERROR [Thread-4] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] null
+2024-02-12 15:31:33,373 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] null
+2024-02-12 15:31:56,367 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [EditPlantController.java:117] nije dobro
+2024-02-12 15:47:27,541 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:176] Error connecting to the database
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE PLANT SET REQUIRED_SPACE = ?WATER_NEEDED[*] = ?WATERING_FREQUENCY = ? WHERE ID = 8"; SQL statement:
+UPDATE PLANT SET REQUIRED_SPACE = ?WATER_NEEDED = ?WATERING_FREQUENCY = ? WHERE ID = 8 [42000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.engine.SessionRemote.readException(SessionRemote.java:650)
+	at org.h2.engine.SessionRemote.done(SessionRemote.java:619)
+	at org.h2.command.CommandRemote.prepare(CommandRemote.java:78)
+	at org.h2.command.CommandRemote.<init>(CommandRemote.java:50)
+	at org.h2.engine.SessionRemote.prepareCommand(SessionRemote.java:487)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:316)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.utils.DatabaseUtils.editPlantInDatabase(DatabaseUtils.java:155)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.controllers.EditPlantController.saveChanges(EditPlantController.java:137)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1855)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-02-12 16:00:12,968 ERROR [Thread-4] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] null
+2024-02-13 10:21:17,446 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] hr.java.garden.projektkucinic.model.Plant; local class incompatible: stream classdesc serialVersionUID = -5383064688682077302, local class serialVersionUID = -1144393114587989902
+2024-02-13 10:21:20,014 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] hr.java.garden.projektkucinic.model.Plant; local class incompatible: stream classdesc serialVersionUID = -5383064688682077302, local class serialVersionUID = -1144393114587989902
+2024-02-13 10:21:20,238 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] hr.java.garden.projektkucinic.model.Plant; local class incompatible: stream classdesc serialVersionUID = -5383064688682077302, local class serialVersionUID = -1144393114587989902
+2024-02-13 10:21:20,398 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] hr.java.garden.projektkucinic.model.Plant; local class incompatible: stream classdesc serialVersionUID = -5383064688682077302, local class serialVersionUID = -1144393114587989902
+2024-02-13 10:21:20,983 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] hr.java.garden.projektkucinic.model.Plant; local class incompatible: stream classdesc serialVersionUID = -5383064688682077302, local class serialVersionUID = -1144393114587989902
+2024-02-13 10:27:02,068 ERROR [Thread-4] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] null
+2024-02-13 10:27:08,002 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] null
+2024-02-13 10:31:58,351 ERROR [Thread-4] h.j.g.p.u.DatabaseUtils [FileUtils.java:90] null
+2024-02-13 10:39:20,489 ERROR [Thread-4] h.j.g.p.u.DatabaseUtils [FileUtils.java:90] null
+2024-02-13 10:41:47,238 ERROR [Thread-4] h.j.g.p.u.DatabaseUtils [FileUtils.java:90] invalid stream header: EFBFBDEF
+2024-02-13 10:47:46,887 ERROR [Thread-4] h.j.g.p.u.DatabaseUtils [FileUtils.java:90] null
+2024-02-13 10:49:26,282 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:90] null
+2024-02-13 14:47:13,728 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:62] An error occurred while opening a screen
+2024-02-13 14:47:15,867 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:62] An error occurred while opening a screen
+2024-02-13 14:47:17,102 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:62] An error occurred while opening a screen
+2024-02-13 15:36:30,347 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:60] An error occurred while opening a screen
+2024-02-13 15:36:31,467 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:60] An error occurred while opening a screen
+2024-02-13 15:37:40,578 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:60] An error occurred while opening a screen
+2024-02-13 15:37:41,824 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:60] An error occurred while opening a screen
+2024-02-13 21:31:10,653 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:60] An error occurred while opening a screen
+2024-02-13 21:31:12,684 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:60] An error occurred while opening a screen
+2024-02-13 21:55:13,301 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:60] An error occurred while opening a screen
+2024-02-13 21:55:14,866 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:60] An error occurred while opening a screen
+2024-02-14 10:19:30,921 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:77] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/new-user.fxml:36
+
+2024-02-14 15:50:57,045 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:92] hr.java.garden.projektkucinic.model.Plant; local class incompatible: stream classdesc serialVersionUID = -1144393114587989902, local class serialVersionUID = -6656312690602515340
+2024-02-14 15:52:25,416 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:92] hr.java.garden.projektkucinic.model.Plant; local class incompatible: stream classdesc serialVersionUID = -1144393114587989902, local class serialVersionUID = -6656312690602515340
+2024-02-14 15:54:09,463 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] null
+2024-02-14 15:54:10,363 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:92] hr.java.garden.projektkucinic.model.Plant; local class incompatible: stream classdesc serialVersionUID = -1144393114587989902, local class serialVersionUID = -6656312690602515340
+2024-02-14 15:55:21,003 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:91] hr.java.garden.projektkucinic.model.Plant; local class incompatible: stream classdesc serialVersionUID = -1144393114587989902, local class serialVersionUID = -6656312690602515340
+2024-02-14 15:55:22,047 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] null
+2024-02-14 15:56:08,423 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] null
+2024-02-14 19:20:44,526 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] null
+2024-02-14 19:34:55,588 ERROR [Thread-6] h.j.g.p.u.DatabaseUtils [FileUtils.java:89] null
+2024-02-15 05:29:25,962 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:42] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]
+2024-02-15 05:29:27,396 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:216] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]
+2024-02-15 05:29:27,405 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:60] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/welcome-screen-1.fxml
+
+2024-02-15 05:29:35,136 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:42] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]
+2024-02-15 05:29:36,546 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:216] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]
+2024-02-15 05:29:36,547 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:60] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/welcome-screen-1.fxml
+
+2024-02-15 05:30:58,217 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:42] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]
+2024-02-15 05:30:59,617 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:216] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]
+2024-02-15 05:30:59,618 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:60] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/welcome-screen-1.fxml
+
+2024-02-15 05:31:01,081 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:42] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]
+2024-02-15 05:31:02,495 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:216] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]
+2024-02-15 05:31:02,496 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:60] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/welcome-screen-1.fxml
+
+2024-02-15 05:33:54,445 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:42] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]
+2024-02-15 05:33:55,863 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:216] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]
+2024-02-15 05:33:55,864 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:60] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/welcome-screen-1.fxml
+
+2024-02-15 05:33:57,327 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:42] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]
+2024-02-15 05:33:58,733 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:216] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]
+2024-02-15 05:33:58,734 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:60] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/welcome-screen-1.fxml
+
+2024-02-15 05:34:00,206 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:42] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]
+2024-02-15 05:34:41,444 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:42] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]
+2024-02-15 05:34:42,876 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:216] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]
+2024-02-15 05:34:42,881 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:61] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/welcome-screen-1.fxml
+
+2024-02-15 05:34:44,377 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:42] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]
+2024-02-15 05:34:45,811 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:216] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]
+2024-02-15 05:34:45,812 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:61] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/welcome-screen-1.fxml
+
+2024-02-15 06:06:30,386 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:317] Error connecting to the database
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE EVENT SET DATE = ?DESCRIPTION[*] = ? WHERE ID = 2"; SQL statement:
+UPDATE EVENT SET DATE = ?DESCRIPTION = ? WHERE ID = 2 [42000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.engine.SessionRemote.readException(SessionRemote.java:650)
+	at org.h2.engine.SessionRemote.done(SessionRemote.java:619)
+	at org.h2.command.CommandRemote.prepare(CommandRemote.java:78)
+	at org.h2.command.CommandRemote.<init>(CommandRemote.java:50)
+	at org.h2.engine.SessionRemote.prepareCommand(SessionRemote.java:487)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:316)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.utils.DatabaseUtils.editEvent(DatabaseUtils.java:296)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.controllers.EditEventController.save(EditEventController.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1855)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-04-20 18:19:53,400 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:100] hr.java.garden.projektkucinic.login.User; local class incompatible: stream classdesc serialVersionUID = 101102895207756407, local class serialVersionUID = 3842316000168784037
+2024-04-20 18:19:55,622 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:100] hr.java.garden.projektkucinic.login.User; local class incompatible: stream classdesc serialVersionUID = 101102895207756407, local class serialVersionUID = 3842316000168784037
+2024-04-20 18:19:57,086 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:100] hr.java.garden.projektkucinic.login.User; local class incompatible: stream classdesc serialVersionUID = 101102895207756407, local class serialVersionUID = 3842316000168784037
+2024-06-18 14:29:25,139 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:101] hr.java.garden.projektkucinic.login.User; local class incompatible: stream classdesc serialVersionUID = 101102895207756407, local class serialVersionUID = 3842316000168784037
+2024-06-18 14:29:27,083 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:101] hr.java.garden.projektkucinic.login.User; local class incompatible: stream classdesc serialVersionUID = 101102895207756407, local class serialVersionUID = 3842316000168784037
+2024-06-18 14:30:16,830 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:101] hr.java.garden.projektkucinic.login.User; local class incompatible: stream classdesc serialVersionUID = 101102895207756407, local class serialVersionUID = 3842316000168784037
+2024-06-18 14:32:24,369 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:99] null
+2024-06-18 14:32:51,892 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:99] null
+2024-06-18 14:32:51,925 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:80] Serialization error. 
+java.io.NotSerializableException: hr.java.garden.projektkucinic.model.UrbanGarden
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200)
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1585)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1542)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1585)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1542)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.utils.FileUtils.serializePlantChanges(FileUtils.java:77)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.controllers.EditPlantController.saveChanges(EditPlantController.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1855)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-06-18 14:37:12,395 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:104] writing aborted; java.io.NotSerializableException: hr.java.garden.projektkucinic.model.UrbanGarden
+2024-06-18 14:37:14,148 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:99] null
+2024-06-18 14:39:02,903 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:97] null
+2024-06-18 14:39:02,925 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:80] Serialization error. 
+java.io.NotSerializableException: hr.java.garden.projektkucinic.model.UrbanGarden
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200)
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1585)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1542)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1585)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1542)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.utils.FileUtils.serializePlantChanges(FileUtils.java:77)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.controllers.EditPlantController.saveChanges(EditPlantController.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1855)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-06-18 14:39:51,539 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:102] writing aborted; java.io.NotSerializableException: hr.java.garden.projektkucinic.model.UrbanGarden
+2024-06-18 14:39:51,546 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:80] Serialization error. 
+java.io.NotSerializableException: hr.java.garden.projektkucinic.model.UrbanGarden
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200)
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1585)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1542)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1585)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1542)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.utils.FileUtils.serializePlantChanges(FileUtils.java:77)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.controllers.EditPlantController.saveChanges(EditPlantController.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1855)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-06-18 14:39:51,560 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:221] Error connecting to the database
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE PLANT SET  WHERE[*] ID = 2"; expected "identifier"; SQL statement:
+UPDATE PLANT SET  WHERE ID = 2 [42001-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.engine.SessionRemote.readException(SessionRemote.java:650)
+	at org.h2.engine.SessionRemote.done(SessionRemote.java:619)
+	at org.h2.command.CommandRemote.prepare(CommandRemote.java:78)
+	at org.h2.command.CommandRemote.<init>(CommandRemote.java:50)
+	at org.h2.engine.SessionRemote.prepareCommand(SessionRemote.java:487)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:316)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.utils.DatabaseUtils.editPlantInDatabase(DatabaseUtils.java:200)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.controllers.EditPlantController.saveChanges(EditPlantController.java:111)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1855)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-06-18 14:42:09,912 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:97] null
+2024-06-18 14:42:09,935 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:80] Serialization error. 
+java.io.NotSerializableException: hr.java.garden.projektkucinic.model.OwnerName
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200)
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1585)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1542)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1585)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1542)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1585)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1542)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.utils.FileUtils.serializePlantChanges(FileUtils.java:77)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.controllers.EditPlantController.saveChanges(EditPlantController.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1855)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-06-18 14:42:17,566 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:102] writing aborted; java.io.NotSerializableException: hr.java.garden.projektkucinic.model.OwnerName
+2024-06-18 14:43:16,239 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:102] writing aborted; java.io.NotSerializableException: hr.java.garden.projektkucinic.model.OwnerName
+2024-06-18 14:43:16,256 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:221] Error connecting to the database
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE PLANT SET  WHERE[*] ID = 2"; expected "identifier"; SQL statement:
+UPDATE PLANT SET  WHERE ID = 2 [42001-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.engine.SessionRemote.readException(SessionRemote.java:650)
+	at org.h2.engine.SessionRemote.done(SessionRemote.java:619)
+	at org.h2.command.CommandRemote.prepare(CommandRemote.java:78)
+	at org.h2.command.CommandRemote.<init>(CommandRemote.java:50)
+	at org.h2.engine.SessionRemote.prepareCommand(SessionRemote.java:487)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:316)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.utils.DatabaseUtils.editPlantInDatabase(DatabaseUtils.java:200)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.controllers.EditPlantController.saveChanges(EditPlantController.java:111)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1855)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-06-18 14:44:19,971 ERROR [Thread-4] h.j.g.p.u.DatabaseUtils [FileUtils.java:97] null
+2024-06-18 14:44:19,990 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:168] Referential integrity constraint violation: "CONSTRAINT_568: PUBLIC.GARDEN_PLANT FOREIGN KEY(PLANT_ID) REFERENCES PUBLIC.PLANT(ID) (14)"; SQL statement:
+DELETE FROM PLANT WHERE ID = ? [23503-224]
+2024-06-18 14:44:29,961 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:168] Referential integrity constraint violation: "CONSTRAINT_568: PUBLIC.GARDEN_PLANT FOREIGN KEY(PLANT_ID) REFERENCES PUBLIC.PLANT(ID) (14)"; SQL statement:
+DELETE FROM PLANT WHERE ID = ? [23503-224]
+2024-06-18 14:47:38,806 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:169] Referential integrity constraint violation: "CONSTRAINT_568: PUBLIC.GARDEN_PLANT FOREIGN KEY(PLANT_ID) REFERENCES PUBLIC.PLANT(ID) (14)"; SQL statement:
+DELETE FROM PLANT WHERE ID = ? [23503-224]
+2024-06-18 14:52:35,802 ERROR [Thread-4] h.j.g.p.u.DatabaseUtils [FileUtils.java:97] null
+2024-06-18 14:52:35,809 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:183] Table "PLANT_GARDEN" not found; SQL statement:
+DELETE FROM PLANT_GARDEN WHERE ID = ? [42102-224]
+2024-06-18 14:52:35,815 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:169] Referential integrity constraint violation: "CONSTRAINT_568: PUBLIC.GARDEN_PLANT FOREIGN KEY(PLANT_ID) REFERENCES PUBLIC.PLANT(ID) (14)"; SQL statement:
+DELETE FROM PLANT WHERE ID = ? [23503-224]
+2024-06-18 14:53:28,063 ERROR [Thread-4] h.j.g.p.u.DatabaseUtils [FileUtils.java:97] null
+2024-06-18 14:53:28,068 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:183] Table "PLANT_GARDEN" not found; SQL statement:
+DELETE FROM PLANT_GARDEN WHERE PLANT_ID = ? [42102-224]
+2024-06-18 14:53:28,081 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:169] Referential integrity constraint violation: "CONSTRAINT_568: PUBLIC.GARDEN_PLANT FOREIGN KEY(PLANT_ID) REFERENCES PUBLIC.PLANT(ID) (14)"; SQL statement:
+DELETE FROM PLANT WHERE ID = ? [23503-224]
+2024-06-18 14:53:35,977 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:97] null
+2024-06-18 14:57:07,628 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:97] null
+2024-06-19 16:51:32,461 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:266] No value present
+2024-06-19 16:51:32,463 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:80] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/new-user.fxml
+
+2024-06-19 16:51:35,648 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:266] No value present
+2024-06-19 16:51:35,649 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:80] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/new-user.fxml
+
+2024-06-19 16:52:51,798 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:266] No value present
+2024-06-19 16:52:51,799 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:80] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/new-user.fxml
+
+2024-06-19 16:55:53,611 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:266] No value present
+2024-06-19 16:55:53,613 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:80] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/new-user.fxml
+
+2024-06-19 16:56:05,356 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:99] hr.java.garden.projektkucinic.model.UrbanGarden; local class incompatible: stream classdesc serialVersionUID = -4220248899950694606, local class serialVersionUID = -1003128654917599648
+2024-06-19 16:56:06,989 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:99] hr.java.garden.projektkucinic.model.UrbanGarden; local class incompatible: stream classdesc serialVersionUID = -4220248899950694606, local class serialVersionUID = -1003128654917599648
+2024-06-19 16:59:07,159 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:266] No value present
+2024-06-19 16:59:07,160 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:80] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/new-user.fxml
+
+2024-06-19 17:01:56,547 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:266] No value present
+2024-06-19 17:01:56,550 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:80] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/new-user.fxml
+
+2024-06-19 17:03:03,091 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:266] No value present
+2024-06-19 17:03:32,665 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:80] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/new-user.fxml
+
+2024-06-19 17:05:27,279 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:266] No value present
+2024-06-19 17:05:27,282 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:80] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/new-user.fxml
+
+2024-06-19 17:08:38,370 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:266] No value present
+2024-06-19 17:08:38,373 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:80] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/new-user.fxml
+
+2024-06-19 17:10:36,261 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:266] No value present
+2024-06-19 17:10:36,267 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [UrbanGardenController.java:80] 
+/C:/Users/Katarina/OneDrive%20-%20Zagreb%20University%20of%20Applied%20Science/Desktop/faks/treci%20semestar/java/projekt-kucinic/target/classes/hr/java/garden/projektkucinic/new-user.fxml
+
+2024-06-19 18:02:59,863 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:97] null
+2024-06-19 18:03:26,779 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:97] null
+2024-06-19 20:52:53,059 ERROR [Thread-4] h.j.g.p.u.DatabaseUtils [FileUtils.java:97] null
+2024-06-19 20:52:53,067 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [AllPlantsController.java:128] You do not have the necessary permissions to access the requested resource.
+2024-06-19 23:07:30,822 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [MenubarController.java:100] You do not have the right role to acces this source.
+2024-06-19 23:08:26,347 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [MenubarController.java:108] You do not have the right role to acces this source.
+2024-06-19 23:24:59,988 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:197] Referential integrity constraint violation: "CONSTRAINT_568: PUBLIC.GARDEN_PLANT FOREIGN KEY(PLANT_ID) REFERENCES PUBLIC.PLANT(ID) (CAST(0 AS BIGINT))"; SQL statement:
+INSERT INTO GARDEN_PLANT (GARDEN_ID, PLANT_ID) VALUES(?, ?) [23506-224]
+2024-06-19 23:31:56,536 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [PlantANewPlantController.java:65] Plant with this name has already been planted!
+2024-06-21 18:42:45,870 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:99] hr.java.garden.projektkucinic.model.MedicalHerbs; local class incompatible: stream classdesc serialVersionUID = 155573135802160275, local class serialVersionUID = 923406707742962158
+2024-06-21 18:42:48,542 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:99] hr.java.garden.projektkucinic.model.MedicalHerbs; local class incompatible: stream classdesc serialVersionUID = 155573135802160275, local class serialVersionUID = 923406707742962158
+2024-06-21 18:42:50,303 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:99] hr.java.garden.projektkucinic.model.MedicalHerbs; local class incompatible: stream classdesc serialVersionUID = 155573135802160275, local class serialVersionUID = 923406707742962158
+2024-06-21 21:43:46,829 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:99] hr.java.garden.projektkucinic.model.MedicalHerbs; local class incompatible: stream classdesc serialVersionUID = 155573135802160275, local class serialVersionUID = 923406707742962158
+2024-06-21 21:43:48,384 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:99] hr.java.garden.projektkucinic.model.MedicalHerbs; local class incompatible: stream classdesc serialVersionUID = 155573135802160275, local class serialVersionUID = 923406707742962158
+2024-06-21 21:44:13,185 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:99] hr.java.garden.projektkucinic.model.MedicalHerbs; local class incompatible: stream classdesc serialVersionUID = 155573135802160275, local class serialVersionUID = 923406707742962158
+2024-06-21 21:44:13,223 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:278] Error connecting to the database
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE PLANT SET  WHERE[*] ID = 4"; expected "identifier"; SQL statement:
+UPDATE PLANT SET  WHERE ID = 4 [42001-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.engine.SessionRemote.readException(SessionRemote.java:650)
+	at org.h2.engine.SessionRemote.done(SessionRemote.java:619)
+	at org.h2.command.CommandRemote.prepare(CommandRemote.java:78)
+	at org.h2.command.CommandRemote.<init>(CommandRemote.java:50)
+	at org.h2.engine.SessionRemote.prepareCommand(SessionRemote.java:487)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:316)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.utils.DatabaseUtils.editPlantInDatabase(DatabaseUtils.java:257)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.controllers.EditPlantController.saveChanges(EditPlantController.java:111)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1855)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-06-21 21:44:53,137 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:278] Error connecting to the database
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE PLANT SET  WHERE[*] ID = 4"; expected "identifier"; SQL statement:
+UPDATE PLANT SET  WHERE ID = 4 [42001-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.engine.SessionRemote.readException(SessionRemote.java:650)
+	at org.h2.engine.SessionRemote.done(SessionRemote.java:619)
+	at org.h2.command.CommandRemote.prepare(CommandRemote.java:78)
+	at org.h2.command.CommandRemote.<init>(CommandRemote.java:50)
+	at org.h2.engine.SessionRemote.prepareCommand(SessionRemote.java:487)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:316)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.utils.DatabaseUtils.editPlantInDatabase(DatabaseUtils.java:257)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.controllers.EditPlantController.saveChanges(EditPlantController.java:111)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1855)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-06-21 21:47:13,771 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:278] Error connecting to the database
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE PLANT SET WHERE[*] ID = 4"; expected "identifier"; SQL statement:
+UPDATE PLANT SET WHERE ID = 4 [42001-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.engine.SessionRemote.readException(SessionRemote.java:650)
+	at org.h2.engine.SessionRemote.done(SessionRemote.java:619)
+	at org.h2.command.CommandRemote.prepare(CommandRemote.java:78)
+	at org.h2.command.CommandRemote.<init>(CommandRemote.java:50)
+	at org.h2.engine.SessionRemote.prepareCommand(SessionRemote.java:487)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:316)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.utils.DatabaseUtils.editPlantInDatabase(DatabaseUtils.java:257)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.controllers.EditPlantController.saveChanges(EditPlantController.java:111)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1855)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-06-21 23:27:37,949 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [MenubarController.java:108] You do not have the right role to acces this source.
+2024-06-21 23:41:07,734 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [MenubarController.java:108] You do not have the right role to acces this source.
+2024-06-22 16:22:25,618 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:371] Column "GARDEN_ID " not found [42122-224]
+2024-06-22 16:22:29,304 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:371] Column "GARDEN_ID " not found [42122-224]
+2024-06-22 18:05:09,131 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:343] Syntax error in SQL statement "SELECT * FROM EVENT WHERE GARDEN_ID=;[*]1"; expected "ALL, ANY, SOME"; SQL statement:
+SELECT * FROM EVENT WHERE GARDEN_ID=;1 [42001-224]
+2024-06-23 17:00:03,524 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:81] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]
+2024-06-23 17:00:04,963 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:64] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]
+2024-06-25 22:11:07,193 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [MenubarController.java:108] You do not have the right role to acces this source.
+2024-06-25 22:44:01,257 ERROR [Thread-4] h.j.g.p.u.DatabaseUtils [FileUtils.java:100] hr.java.garden.projektkucinic.model.OwnerName; local class incompatible: stream classdesc serialVersionUID = -201084212614917470, local class serialVersionUID = -6577619375505685656
+2024-06-25 22:53:14,254 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [MenubarController.java:108] You do not have the right role to acces this source.
+2024-06-26 18:35:59,017 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:81] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]
+2024-06-26 18:36:00,448 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:64] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]
+2024-06-26 18:36:01,827 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:327] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]
+2024-06-26 18:46:16,715 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:100] hr.java.garden.projektkucinic.model.OwnerName; local class incompatible: stream classdesc serialVersionUID = -201084212614917470, local class serialVersionUID = -6577619375505685656
+2024-06-26 18:48:36,423 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:98] null
+2024-06-26 18:49:35,874 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:268] Error connecting to the database
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE PLANT SET WATER_NEEDED = ?WATERING_FREQUENCY[*] = ?WHERE ID = 4"; SQL statement:
+UPDATE PLANT SET WATER_NEEDED = ?WATERING_FREQUENCY = ?WHERE ID = 4 [42000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.engine.SessionRemote.readException(SessionRemote.java:650)
+	at org.h2.engine.SessionRemote.done(SessionRemote.java:619)
+	at org.h2.command.CommandRemote.prepare(CommandRemote.java:78)
+	at org.h2.command.CommandRemote.<init>(CommandRemote.java:50)
+	at org.h2.engine.SessionRemote.prepareCommand(SessionRemote.java:487)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:316)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.utils.DatabaseUtils.editPlantInDatabase(DatabaseUtils.java:247)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.controllers.EditPlantController.saveChanges(EditPlantController.java:124)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1855)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-06-26 18:50:22,023 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:98] null
+2024-06-26 18:52:30,543 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:98] null Deletion
+2024-06-27 11:35:02,480 ERROR [Thread-4] h.j.g.p.u.DatabaseUtils [FileUtils.java:98] null Deletion
+2024-06-27 11:46:55,839 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [MenubarController.java:118] You do not have the right role to access this source.
+2024-06-27 11:46:59,216 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:100] hr.java.garden.projektkucinic.genericsi.ScheduleForPlant; local class incompatible: stream classdesc serialVersionUID = -4437700324154671312, local class serialVersionUID = 5662398231734368338
+2024-06-27 11:48:03,975 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [FileUtils.java:98] null Update
+2024-06-27 13:17:03,637 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [MenubarController.java:118] You do not have the right role to access this source.
+2024-06-27 13:24:19,571 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:522] Error connecting to the database
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE EVENT SET  WHERE[*] ID = 133;"; expected "identifier"; SQL statement:
+UPDATE EVENT SET  WHERE ID = 133; [42001-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.engine.SessionRemote.readException(SessionRemote.java:650)
+	at org.h2.engine.SessionRemote.done(SessionRemote.java:619)
+	at org.h2.command.CommandRemote.prepare(CommandRemote.java:78)
+	at org.h2.command.CommandRemote.<init>(CommandRemote.java:50)
+	at org.h2.engine.SessionRemote.prepareCommand(SessionRemote.java:487)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:316)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.utils.DatabaseUtils.editEvent(DatabaseUtils.java:502)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.controllers.EditEventController.save(EditEventController.java:93)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1855)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-06-27 13:29:30,983 DEBUG [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:163] 69
+2024-06-27 15:42:46,786 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:522] Error connecting to the database
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE EVENT SET  WHERE[*] ID = 98;"; expected "identifier"; SQL statement:
+UPDATE EVENT SET  WHERE ID = 98; [42001-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.engine.SessionRemote.readException(SessionRemote.java:650)
+	at org.h2.engine.SessionRemote.done(SessionRemote.java:619)
+	at org.h2.command.CommandRemote.prepare(CommandRemote.java:78)
+	at org.h2.command.CommandRemote.<init>(CommandRemote.java:50)
+	at org.h2.engine.SessionRemote.prepareCommand(SessionRemote.java:487)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:316)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.utils.DatabaseUtils.editEvent(DatabaseUtils.java:502)
+	at hr.java.garden.projektkucinic/hr.java.garden.projektkucinic.controllers.EditEventController.save(EditEventController.java:94)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@21-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1855)
+	at javafx.fxml@21-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-07-03 18:07:15,228 INFO [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [ManageRoles.java:79] Promijenjeni user admin.0000
+2025-04-08 20:43:23,483 INFO [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [ManageRoles.java:79] Promijenjeni user keti.12345
+2025-07-21 11:48:55,248 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:81] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]
+2025-07-21 11:48:56,643 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:64] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]
+2025-07-21 11:48:58,027 ERROR [JavaFX Application Thread] h.j.g.p.u.DatabaseUtils [DatabaseUtils.java:352] Connection is broken: "java.net.ConnectException: Connection refused: no further information: localhost" [90067-224]

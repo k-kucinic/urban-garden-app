@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="21.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="hr.java.garden.projektkucinic.controllers.MenubarController">
+
+    <children>
+
+        <MenuBar prefHeight="27.0" prefWidth="602.0" style="-fx-background-color: #a0f2b6; -fx-border-color: white;">
+            <menus>
+                <Menu mnemonicParsing="false" text="Events">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#allCommunityActivities"
+                                  text="See Upcoming Events"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Log out">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#logOut" text="log out"/>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </children>
+</AnchorPane>

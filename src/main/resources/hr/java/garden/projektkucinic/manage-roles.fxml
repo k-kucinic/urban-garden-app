@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.java.garden.projektkucinic.controllers.ManageRoles">
+<children>
+    <fx:include source="menubar.fxml" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a0f2b6" height="400.0" layoutX="469.0" stroke="#a0f2b6" strokeType="INSIDE" width="135.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a0f2b6" height="374.0" layoutY="26.0" stroke="#a0f2b6" strokeType="INSIDE" width="135.0" />
+      <Label layoutX="249.0" layoutY="39.0" text="All Requests">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <TableView fx:id="requestTableView" layoutX="135.0" layoutY="132.0" prefHeight="272.0" prefWidth="334.0">
+        <columns>
+          <TableColumn fx:id="usernameColumn" prefWidth="178.40001678466797" text="Username" />
+            <TableColumn fx:id="roleColumn" prefWidth="153.5999755859375" text="Requested role" />
+        </columns>
+      </TableView>
+      <Label layoutX="146.0" layoutY="91.0" text="Double-click to confirm" />
+</children>
+</AnchorPane>

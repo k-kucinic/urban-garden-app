@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.java.garden.projektkucinic.controllers.WelcomeScreenController">
+    <fx:include source="menubar.fxml" />
+    <GridPane layoutX="291.2" layoutY="117.0" prefHeight="204.0" prefWidth="297.0" style="-fx-border-color: black;" AnchorPane.bottomAnchor="81.0" AnchorPane.leftAnchor="291.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="117.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="162.199951171875" minWidth="10.0" prefWidth="81.4" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="162.199951171875" minWidth="0.0" prefWidth="4.800048828125" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="264.8" minWidth="10.0" prefWidth="225.59995117187503" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="122.99998779296875" minHeight="10.0" prefHeight="122.99998779296875" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="72.79999389648438" minHeight="0.0" prefHeight="4.600012207031256" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="112.00000610351564" minHeight="10.0" prefHeight="31.000024414062494" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="112.00000610351564" minHeight="0.0" prefHeight="13.399987792968744" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="76.5999969482422" minHeight="10.0" prefHeight="31.799969482421886" vgrow="SOMETIMES" />
+        </rowConstraints>
+        <children>
+            <Label text="Location" GridPane.halignment="CENTER">
+                <GridPane.margin>
+                    <Insets left="20.0" right="10.0" />
+                </GridPane.margin>
+            </Label>
+            <Label text="Area" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                <GridPane.margin>
+                    <Insets left="20.0" right="10.0" />
+                </GridPane.margin>
+            </Label>
+            <Label text="Owner" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+                <GridPane.margin>
+                    <Insets left="20.0" right="10.0" />
+                </GridPane.margin>
+            </Label>
+            <Label fx:id="areaLabel" text="Label" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+            <Label fx:id="ownerLabel" text="Label" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+            <Label fx:id="locationLabel" text="Label" wrapText="true" GridPane.columnIndex="2">
+                <GridPane.margin>
+                    <Insets left="10.0" />
+                </GridPane.margin>
+            </Label>
+            <Line endX="195.29287719726562" endY="0.13401947915554047" startX="-100.0" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+            <Line endX="195.29287719726562" endY="0.02550126239657402" startX="-100.0" GridPane.columnSpan="2" GridPane.rowIndex="3" />
+            <Line endX="-74.39956665039062" endY="191.92315673828125" startX="-74.39957427978516" startY="-7.369731426239014" GridPane.columnIndex="1" GridPane.rowSpan="5" />
+        </children>
+    </GridPane>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#84e09d" height="373.0" layoutX="-1.0" layoutY="28.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="245.0" />
+    <VBox layoutX="17.0" layoutY="43.0" prefHeight="106.0" prefWidth="211.0" spacing="20.0" style="-fx-background-color: a0f2b6;">
+        <children>
+            <GridPane prefHeight="84.0" prefWidth="166.0">
+                <columnConstraints>
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="61.20001220703125" minWidth="10.0" prefWidth="61.20001220703125" />
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="67.5999755859375" minWidth="10.0" prefWidth="62.79998779296875" />
+                </columnConstraints>
+                <rowConstraints>
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                </rowConstraints>
+                <children>
+                    <Label text="Username" GridPane.halignment="RIGHT">
+                        <GridPane.margin>
+                            <Insets right="5.0" />
+                        </GridPane.margin>
+                    </Label>
+                    <Label text="Role" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+                        <GridPane.margin>
+                            <Insets right="5.0" />
+                        </GridPane.margin>
+                    </Label>
+                    <Label fx:id="roleLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                    <Label fx:id="usernameLabel" text="Label" wrapText="true" GridPane.columnIndex="1" />
+                </children>
+                <VBox.margin>
+                    <Insets left="20.0" right="20.0" />
+                </VBox.margin>
+            </GridPane>
+        </children>
+    </VBox>
+    <Label layoutX="350.0" layoutY="58.0" text="Welcome" textFill="#a0f2b6">
+        <font>
+            <Font name="System Bold" size="25.0" />
+        </font>
+    </Label>
+
+</AnchorPane>

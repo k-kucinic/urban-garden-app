@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.java.garden.projektkucinic.controllers.EditEventController">
+    <fx:include source="menubar.fxml" />
+    <GridPane layoutY="26.0" prefHeight="374.0" prefWidth="600.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="322.20001220703125" minWidth="10.0" prefWidth="298.20001220703125" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="307.4000366210937" minWidth="10.0" prefWidth="302.5999877929687" />
+         <ColumnConstraints hgrow="SOMETIMES" maxWidth="307.4000366210937" minWidth="10.0" prefWidth="302.5999877929687" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="75.19998779296876" minHeight="10.0" prefHeight="58.39998168945313" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="75.19998779296876" minHeight="10.0" prefHeight="49.60001831054687" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="75.19998779296876" minHeight="10.0" prefHeight="28.400012207031253" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="76.39998779296874" minHeight="10.0" prefHeight="48.60001831054686" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="63.99997558593749" minHeight="10.0" prefHeight="48.59998168945313" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="98.00002136230472" minHeight="10.0" prefHeight="84.8000244140625" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="95.19998779296876" minHeight="10.0" prefHeight="42.4000244140625" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="56.80002441406248" minHeight="10.0" prefHeight="35.99997558593748" vgrow="SOMETIMES" />
+        </rowConstraints>
+        <children>
+            <Label text="Name of The Event" GridPane.halignment="RIGHT" GridPane.rowIndex="3">
+                <GridPane.margin>
+                    <Insets right="40.0" />
+                </GridPane.margin>
+            </Label>
+            <Label text="Pick date" GridPane.halignment="RIGHT" GridPane.rowIndex="4">
+                <GridPane.margin>
+                    <Insets right="40.0" />
+                </GridPane.margin>
+            </Label>
+            <Label text="Description" GridPane.halignment="RIGHT" GridPane.rowIndex="5">
+                <GridPane.margin>
+                    <Insets right="40.0" />
+                </GridPane.margin>
+            </Label>
+            <Label text="Number of People Invited:" GridPane.halignment="RIGHT" GridPane.rowIndex="6">
+                <GridPane.margin>
+                    <Insets right="40.0" />
+                </GridPane.margin>
+            </Label>
+            <TextField fx:id="eventNameTextField" editable="false" style="-fx-border-color: red;" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                <GridPane.margin>
+                    <Insets left="20.0" right="20.0" />
+                </GridPane.margin>
+            </TextField>
+            <TextArea fx:id="eventDescriptionTextArea" editable="false" prefHeight="74.0" prefWidth="250.0" style="-fx-border-color: red;" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                <GridPane.margin>
+                    <Insets left="20.0" right="20.0" />
+                </GridPane.margin>
+            </TextArea>
+            <TextField fx:id="numberOfPeopleInvitedTextField" editable="false" style="-fx-border-color: red;" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                <GridPane.margin>
+                    <Insets left="20.0" right="20.0" />
+                </GridPane.margin>
+            </TextField>
+            <Button mnemonicParsing="false" onAction="#save" text="Save" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
+            <Label text="Edit a Garden Event" GridPane.columnSpan="3" GridPane.halignment="CENTER">
+                <font>
+                    <Font size="23.0" />
+                </font>
+            </Label>
+            <ComboBox fx:id="eventComboBox" prefWidth="150.0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+            <Label text="Choose event:" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+                <GridPane.margin>
+                    <Insets right="40.0" />
+                </GridPane.margin>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#choose" text="Choose" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+         <TextField fx:id="eventNameTextFieldAfter" style="-fx-border-color: green;" GridPane.columnIndex="2" GridPane.rowIndex="3">
+            <GridPane.margin>
+               <Insets left="20.0" right="20.0" />
+            </GridPane.margin>
+         </TextField>
+         <DatePicker fx:id="eventDatePickerAfter" style="-fx-border-color: green;" GridPane.columnIndex="2" GridPane.rowIndex="4">
+            <GridPane.margin>
+               <Insets left="20.0" right="20.0" />
+            </GridPane.margin>
+         </DatePicker>
+         <TextArea fx:id="eventDescriptionTextAreaAfter" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: green;" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="5">
+            <GridPane.margin>
+               <Insets left="20.0" right="20.0" />
+            </GridPane.margin>
+         </TextArea>
+         <TextField fx:id="numberOfPeopleInvitedTextFieldAfter" style="-fx-border-color: green;" GridPane.columnIndex="2" GridPane.rowIndex="6">
+            <GridPane.margin>
+               <Insets left="20.0" right="20.0" />
+            </GridPane.margin>
+         </TextField>
+         <TextField fx:id="eventDatePicker" style="-fx-border-color: red;" GridPane.columnIndex="1" GridPane.rowIndex="4">
+            <GridPane.margin>
+               <Insets left="20.0" right="20.0" />
+            </GridPane.margin>
+         </TextField>
+        </children>
+    </GridPane>
+
+
+
+</AnchorPane>

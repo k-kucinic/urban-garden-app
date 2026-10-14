@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="21.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="hr.java.garden.projektkucinic.controllers.MenubarController">
+    <children>
+        <MenuBar prefHeight="27.0" prefWidth="602.0" style="-fx-background-color: #a0f2b6; -fx-border-color: white;">
+            <menus>
+                <Menu mnemonicParsing="false" text="Events">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#allPlanedActivities"
+                                  text="See All Events and Activities"/>
+                        <MenuItem mnemonicParsing="false" onAction="#newEvent" text="Organize a New Event"/>
+                        <MenuItem mnemonicParsing="false" onAction="#editEvent" text="Edit events"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Plants">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#allPlantsScreen" text="All Plants"/>
+                        <MenuItem mnemonicParsing="false" onAction="#newPlant" text="Add New Plant"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Changes">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#seeChanges" text="See Changes"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Administration">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#manage" text="Manage Users"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Log out">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#logOut" text="log out"/>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </children>
+</AnchorPane>
